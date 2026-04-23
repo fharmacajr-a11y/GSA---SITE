@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GSA | Sites e Aplicativos Sob Medida para Empresas</title>
+    <meta
+      name="description"
+      content="A GSA - Gestor de Sites & Apps desenvolve aplicativos desktop, sites institucionais e sistemas sob medida para empresas que precisam crescer com soluções digitais práticas e eficientes."
+    />
+    <meta name="theme-color" content="#0A1F44" />
+    <!-- Substituir o domínio abaixo pelo domínio final da GSA antes da publicação. -->
+    <link rel="canonical" href="https://www.seu-dominio-gsa.com.br/" />
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                dark: "#0A1F44",
+                DEFAULT: "#1464FF",
+                light: "#79CBFF",
+                ice: "#EEF6FF",
+              },
+            },
+            fontFamily: {
+              sans: ["Manrope", "sans-serif"],
+              display: ["Space Grotesk", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <!-- Substituir as URLs do schema abaixo quando o domínio oficial da GSA estiver definido. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "GSA - Gestor de Sites & Apps",
+        "url": "https://www.seu-dominio-gsa.com.br/",
+        "logo": "https://www.seu-dominio-gsa.com.br/assets/img/gsa-mark.svg",
+        "description": "Divisão de tecnologia da RC - Regularize Consultoria. Desenvolve aplicativos desktop e sites sob medida para empresas.",
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "RC - Regularize Consultoria"
+        }
+      }
+    </script>
+  </head>
+  <body class="antialiased">
+    <a
+      href="#conteudo"
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[70] focus:rounded-full focus:bg-brand focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white"
+      >Pular para o conteúdo</a
+    >
+
+    <div class="border-b border-white/10 bg-brand-dark text-white">
+      <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-3 text-sm">
+        <p class="font-medium">Divisão de tecnologia da RC - Regularize Consultoria</p>
+        <p class="hidden text-white/70 md:block">Desktop primeiro. Web sob medida. Evolução contínua.</p>
+      </div>
+    </div>
+
+    <header class="site-header sticky top-0 z-50" data-site-header>
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="flex items-center justify-between py-4">
+          <a href="index.html" class="brand-lockup" aria-label="Página inicial da GSA">
+            <img src="assets/img/gsa-mark.svg" alt="" class="brand-mark" width="46" height="46" />
+            <span>
+              <span class="block font-display text-lg font-bold text-brand-dark">GSA</span>
+              <span class="block text-sm text-slate-500">Gestor de Sites &amp; Apps</span>
+            </span>
+          </a>
+
+          <nav class="hidden items-center gap-8 md:flex" aria-label="Navegação principal">
+            <a href="index.html" class="nav-link text-sm font-semibold" data-nav-link>Início</a>
+            <a href="sobre.html" class="nav-link text-sm font-semibold" data-nav-link>Sobre</a>
+            <a href="servicos.html" class="nav-link text-sm font-semibold" data-nav-link>Serviços</a>
+            <a href="contato.html" class="nav-link text-sm font-semibold" data-nav-link>Contato</a>
+          </nav>
+
+          <div class="hidden md:block">
+            <a
+              href="contato.html"
+              class="inline-flex items-center rounded-full bg-brand px-5 py-3 text-sm font-semibold text-white transition hover:bg-brand-dark"
+              >Falar sobre um projeto</a
+            >
+          </div>
+
+          <button
+            type="button"
+            class="inline-flex items-center gap-2 rounded-full border border-brand/15 bg-white px-4 py-2 text-sm font-semibold text-brand-dark md:hidden"
+            data-menu-button
+            aria-expanded="false"
+            aria-controls="menu-mobile"
+          >
+            <span data-menu-label>Abrir menu</span>
+          </button>
+        </div>
+
+        <div
+          id="menu-mobile"
+          class="hidden border-t border-brand/10 pb-4 pt-3 md:hidden"
+          data-mobile-menu
+        >
+          <nav class="grid gap-2" aria-label="Navegação móvel">
+            <a href="index.html" class="mobile-link rounded-2xl px-4 py-3 text-sm font-semibold text-slate-700" data-nav-link
+              >Início</a
+            >
+            <a href="sobre.html" class="mobile-link rounded-2xl px-4 py-3 text-sm font-semibold text-slate-700" data-nav-link
+              >Sobre</a
+            >
+            <a href="servicos.html" class="mobile-link rounded-2xl px-4 py-3 text-sm font-semibold text-slate-700" data-nav-link
+              >Serviços</a
+            >
+            <a href="contato.html" class="mobile-link rounded-2xl px-4 py-3 text-sm font-semibold text-slate-700" data-nav-link
+              >Contato</a
+            >
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="px-6 pb-16 pt-8 md:pb-24 md:pt-12">
+        <div class="hero-shell mx-auto max-w-7xl px-6 py-10 md:px-10 md:py-12">
+          <div class="hero-mesh" aria-hidden="true"></div>
+          <div class="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+            <div class="relative z-10">
+              <span class="pill mb-6">
+                <span class="pill-dot"></span>
+                GSA - Gestor de Sites &amp; Apps
+              </span>
+              <h1 class="max-w-3xl font-display text-4xl font-bold leading-tight text-brand-dark md:text-6xl">
+                Desenvolvemos do zero o que sua empresa precisa para crescer no digital.
+              </h1>
+              <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
+                A GSA é a divisão de tecnologia da RC - Regularize Consultoria. Criamos aplicativos desktop
+                para Windows, Linux e Mac, sites institucionais e sistemas sob medida com foco em soluções
+                práticas, eficientes e prontas para evoluir com a operação da sua empresa.
+              </p>
+              <div class="mt-8 flex flex-col gap-4 sm:flex-row">
+                <a
+                  href="servicos.html"
+                  class="inline-flex items-center justify-center rounded-full bg-brand px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark"
+                  >Ver serviços</a
+                >
+                <a
+                  href="contato.html"
+                  class="inline-flex items-center justify-center rounded-full border border-brand/15 bg-white px-6 py-3.5 text-sm font-semibold text-brand-dark transition hover:border-brand/30 hover:bg-brand-ice"
+                  >Solicitar atendimento comercial</a
+                >
+              </div>
+              <div class="mt-10 grid gap-4 sm:grid-cols-3">
+                <div class="section-card p-5">
+                  <p class="text-xs font-bold uppercase tracking-[0.22em] text-brand">Foco inicial</p>
+                  <p class="mt-3 text-lg font-semibold text-brand-dark">Apps desktop</p>
+                  <p class="mt-2 text-sm leading-6 text-slate-600">Projetos para Windows, Linux e Mac com lógica de operação real.</p>
+                </div>
+                <div class="section-card p-5">
+                  <p class="text-xs font-bold uppercase tracking-[0.22em] text-brand">Presença digital</p>
+                  <p class="mt-3 text-lg font-semibold text-brand-dark">Sites sob medida</p>
+                  <p class="mt-2 text-sm leading-6 text-slate-600">Institucionais ou com funcionalidades personalizadas para o seu processo.</p>
+                </div>
+                <div class="section-card p-5">
+                  <p class="text-xs font-bold uppercase tracking-[0.22em] text-brand">Continuidade</p>
+                  <p class="mt-3 text-lg font-semibold text-brand-dark">Suporte e evolução</p>
+                  <p class="mt-2 text-sm leading-6 text-slate-600">Manutenção, atualização e melhorias contínuas depois da entrega.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-panel float-soft p-6 md:p-8">
+              <div class="flex items-center justify-between gap-4">
+                <div>
+                  <p class="text-xs font-bold uppercase tracking-[0.24em] text-sky-100">Estrutura de atuação</p>
+                  <h2 class="mt-2 font-display text-2xl font-bold">Desktop primeiro, solução completa depois.</h2>
+                </div>
+                <img src="assets/img/gsa-mark.svg" alt="" class="h-14 w-14 rounded-2xl" width="56" height="56" />
+              </div>
+              <div class="mt-6 grid gap-4">
+                <div class="hero-node p-5">
+                  <p class="text-xs font-bold uppercase tracking-[0.22em] text-sky-100">Origem real</p>
+                  <p class="mt-2 text-lg font-semibold">A GSA nasceu dentro da RC para resolver uma necessidade interna com tecnologia própria.</p>
+                </div>
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <div class="hero-node p-5">
+                    <p class="text-sm font-semibold">Aplicativos sob medida</p>
+                    <p class="mt-2 text-sm leading-6 text-sky-50/90">Fluxos internos, inventário, documentos e rotinas operacionais.</p>
+                  </div>
+                  <div class="hero-node p-5">
+                    <p class="text-sm font-semibold">Sites com função real</p>
+                    <p class="mt-2 text-sm leading-6 text-sky-50/90">Institucionais claros ou estruturas com recursos específicos para cada empresa.</p>
+                  </div>
+                </div>
+                <div class="hero-node p-5">
+                  <div class="flex items-start justify-between gap-4">
+                    <div>
+                      <p class="text-xs font-bold uppercase tracking-[0.22em] text-sky-100">Próxima camada</p>
+                      <p class="mt-2 text-lg font-semibold">Expansão planejada para mobile</p>
+                    </div>
+                    <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-sky-100"
+                      >Futuro</span
+                    >
+                  </div>
+                  <p class="mt-3 text-sm leading-6 text-sky-50/90">
+                    O foco atual está em aplicações desktop e web, com caminho preparado para evoluir para iOS e Android quando fizer sentido para o negócio.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-6 py-12 md:py-20">
+        <div class="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[1.1fr_0.9fr]">
+          <div>
+            <p class="eyebrow">Quem somos</p>
+            <h2 class="mt-5 font-display text-3xl font-bold text-brand-dark md:text-5xl">
+              Tecnologia criada a partir de uma necessidade interna e preparada para atender outras empresas.
+            </h2>
+            <p class="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
+              O GSA - Gestor de Sites &amp; Apps é a divisão especializada em desenvolvimento da RC - Regularize Consultoria.
+              O primeiro sistema nasceu para resolver uma demanda real dentro da própria RC e virou base para uma nova frente:
+              construir soluções digitais personalizadas para empresas que precisam de mais controle, produtividade e presença digital.
+            </p>
+            <p class="mt-5 max-w-3xl text-base leading-7 text-slate-600">
+              Em vez de encaixar sua operação em plataformas genéricas, a GSA estrutura projetos do zero: aplicativos desktop,
+              sites institucionais, áreas com funcionalidades personalizadas, inventário empresarial, gestão documental segura
+              e recursos específicos para cada segmento.
+            </p>
+          </div>
+
+          <div class="grid gap-5">
+            <article class="detail-card grid-accent p-6">
+              <p class="text-xs font-bold uppercase tracking-[0.22em] text-brand">Relação com a RC</p>
+              <h3 class="mt-3 font-display text-2xl font-bold text-brand-dark">Divisão própria, atuação complementar.</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-600">
+                A GSA carrega a experiência de ter surgido dentro da RC, mas tem posicionamento específico em tecnologia, desenvolvimento e suporte.
+              </p>
+            </article>
+            <article class="detail-card grid-accent p-6">
+              <p class="text-xs font-bold uppercase tracking-[0.22em] text-brand">Como atuamos</p>
+              <h3 class="mt-3 font-display text-2xl font-bold text-brand-dark">Sob medida desde o diagnóstico.</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-600">
+                Cada projeto parte do processo real da empresa: rotina, gargalo, dado, equipe e escala futura. O desenho técnico vem depois.
+              </p>
+            </article>
+            <article class="detail-card grid-accent p-6">
+              <p class="text-xs font-bold uppercase tracking-[0.22em] text-brand">Onde entregamos valor</p>
+              <h3 class="mt-3 font-display text-2xl font-bold text-brand-dark">Operação, organização e crescimento.</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-600">
+                A solução pode ser um site, um sistema, um aplicativo ou uma combinação entre frentes para resolver um fluxo completo.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-6 py-12 md:py-20">
+        <div class="mx-auto max-w-7xl">
+          <div class="max-w-3xl">
+            <p class="eyebrow">O que fazemos</p>
+            <h2 class="mt-5 font-display text-3xl font-bold text-brand-dark md:text-5xl">
+              Soluções digitais pensadas para a estrutura real da sua empresa.
+            </h2>
+          </div>
+          <div class="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+            <article class="service-card p-6">
+              <p class="text-xs font-bold uppercase tracking-[0.22em] text-brand">01</p>
+              <h3 class="mt-4 font-display text-2xl font-bold text-brand-dark">Aplicativos desktop</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-600">
+                Desenvolvimento de aplicativos do zero para Windows, Linux e Mac com foco em operação interna e produtividade.
+              </p>
+            </article>
+            <article class="service-card p-6">
+              <p class="text-xs font-bold uppercase tracking-[0.22em] text-brand">02</p>
+              <h3 class="mt-4 font-display text-2xl font-bold text-brand-dark">Sites institucionais</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-600">
+                Presença digital clara, moderna e objetiva para empresas que precisam apresentar marca, proposta e contato com profissionalismo.
+              </p>
+            </article>
+            <article class="service-card p-6">
+              <p class="text-xs font-bold uppercase tracking-[0.22em] text-brand">03</p>
+              <h3 class="mt-4 font-display text-2xl font-bold text-brand-dark">Web com funcionalidades personalizadas</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-600">
+                Áreas administrativas, fluxos internos, páginas com lógica específica e integração de recursos conforme a necessidade do negócio.
+              </p>
+            </article>
+            <article class="service-card p-6">
+              <p class="text-xs font-bold uppercase tracking-[0.22em] text-brand">04</p>
+              <h3 class="mt-4 font-display text-2xl font-bold text-brand-dark">Inventário e documentos</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-600">
+                Sistemas para controle de ativos, histórico, gestão documental e armazenamento seguro de informações estratégicas.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-6 py-12 md:py-20">
+        <div class="mx-auto grid max-w-7xl gap-6 lg:grid-cols-3">
+          <div class="detail-card p-7">
+            <p class="eyebrow">Diferenciais</p>
+            <h2 class="mt-5 font-display text-3xl font-bold text-brand-dark">Por que a GSA existe de um jeito diferente</h2>
+          </div>
+          <div class="detail-card process-step p-7" data-step="01">
+            <h3 class="font-display text-2xl font-bold text-brand-dark">Nasceu de um caso real</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">
+              A operação inicial não veio de um projeto hipotético. A primeira solução foi criada dentro da própria RC para resolver uma dor concreta.
+            </p>
+          </div>
+          <div class="detail-card process-step p-7" data-step="02">
+            <h3 class="font-display text-2xl font-bold text-brand-dark">Desenvolvimento sob medida</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">
+              O projeto é desenhado a partir do seu processo, sem forçar adaptação da rotina a uma ferramenta genérica.
+            </p>
+          </div>
+          <div class="detail-card process-step p-7" data-step="03">
+            <h3 class="font-display text-2xl font-bold text-brand-dark">Desktop como prioridade</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">
+              A GSA inicia sua atuação focada em aplicativos desktop, ideal para times que precisam de estabilidade e fluxo operacional robusto.
+            </p>
+          </div>
+          <div class="detail-card process-step p-7" data-step="04">
+            <h3 class="font-display text-2xl font-bold text-brand-dark">Suporte contínuo</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">
+              Entrega não encerra o relacionamento. Atualizações, correções e evolução fazem parte da sustentação do produto.
+            </p>
+          </div>
+          <div class="detail-card quote-card p-7">
+            <p class="text-sm font-semibold uppercase tracking-[0.22em] text-brand">Missão</p>
+            <p class="mt-4 text-lg leading-8 text-brand-dark">
+              Transformar a necessidade de cada empresa em uma solução digital eficiente, moderna e feita sob medida.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-6 pb-20 pt-12 md:pb-24 md:pt-16">
+        <div class="cta-band mx-auto max-w-7xl px-8 py-10 md:px-10 md:py-12">
+          <div class="relative z-10 grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
+            <div>
+              <p class="text-sm font-bold uppercase tracking-[0.24em] text-sky-100">Pronto para sair do improviso?</p>
+              <h2 class="mt-4 font-display text-3xl font-bold md:text-5xl">
+                Se sua empresa precisa de um site, aplicativo ou sistema próprio, a GSA pode estruturar isso do zero.
+              </h2>
+            </div>
+            <div class="grid gap-4">
+              <a
+                href="contato.html"
+                class="link-card inline-flex items-center justify-center rounded-2xl px-6 py-4 text-center text-sm font-semibold text-white transition hover:bg-white/15"
+                >Solicitar conversa comercial</a
+              >
+              <a
+                href="sobre.html"
+                class="inline-flex items-center justify-center rounded-2xl border border-white/12 px-6 py-4 text-center text-sm font-semibold text-white/90 transition hover:bg-white/10"
+                >Entender como a GSA nasceu</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-shell px-6 py-12">
+      <div class="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[1.2fr_0.7fr_0.9fr]">
+        <div>
+          <a href="index.html" class="brand-lockup">
+            <img src="assets/img/gsa-mark.svg" alt="" class="brand-mark" width="46" height="46" />
+            <span>
+              <span class="block font-display text-lg font-bold text-brand-dark">GSA</span>
+              <span class="block text-sm text-slate-500">Gestor de Sites &amp; Apps</span>
+            </span>
+          </a>
+          <p class="mt-5 max-w-xl text-sm leading-7 text-slate-600">
+            Divisão de tecnologia da RC - Regularize Consultoria, dedicada ao desenvolvimento de aplicativos desktop,
+            sites institucionais, soluções web personalizadas e sustentação contínua.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="font-display text-lg font-bold text-brand-dark">Navegação</h2>
+          <nav class="mt-4 grid gap-3 text-sm text-slate-600">
+            <a href="index.html" class="transition hover:text-brand-dark">Início</a>
+            <a href="sobre.html" class="transition hover:text-brand-dark">Sobre</a>
+            <a href="servicos.html" class="transition hover:text-brand-dark">Serviços</a>
+            <a href="contato.html" class="transition hover:text-brand-dark">Contato</a>
+          </nav>
+        </div>
+
+        <div>
+          <h2 class="font-display text-lg font-bold text-brand-dark">Contato inicial</h2>
+          <!-- Substituir os canais abaixo pelos dados comerciais oficiais da GSA antes da publicação. -->
+          <div class="mt-4 grid gap-3 text-sm text-slate-600">
+            <a href="https://wa.me/5500000000000" class="transition hover:text-brand-dark">WhatsApp: (00) 00000-0000</a>
+            <a href="mailto:contato@seudominio.com.br" class="transition hover:text-brand-dark"
+              >E-mail: contato@seudominio.com.br</a
+            >
+            <p>Atendimento comercial sob agendamento.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mx-auto mt-10 max-w-7xl border-t border-brand/10 pt-6 text-sm text-slate-500">
+        <p>&copy; <span data-current-year></span> GSA - Gestor de Sites &amp; Apps. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

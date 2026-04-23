@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">GSA - Gestor de Sites &amp; Apps</title>
+  <desc id="desc">Marca geométrica em azul para a GSA.</desc>
+  <defs>
+    <linearGradient id="gsa-gradient" x1="14" y1="12" x2="84" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#79CBFF"/>
+      <stop offset="0.5" stop-color="#1464FF"/>
+      <stop offset="1" stop-color="#0A1F44"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="24" fill="url(#gsa-gradient)"/>
+  <path d="M28 30C28 25.5817 31.5817 22 36 22H62V32H40V58H58V48H48V38H68V60C68 64.4183 64.4183 68 60 68H36C31.5817 68 28 64.4183 28 60V30Z" fill="white"/>
+  <path d="M65 22H72C76.4183 22 80 25.5817 80 30V56L65 71V22Z" fill="#9EDBFF" opacity="0.95"/>
+  <circle cx="68.5" cy="68.5" r="7.5" fill="white"/>
+</svg>

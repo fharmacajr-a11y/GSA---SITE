@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Substituir o domínio abaixo pelo domínio final da GSA antes da publicação. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.seu-dominio-gsa.com.br/</loc>
+  </url>
+  <url>
+    <loc>https://www.seu-dominio-gsa.com.br/sobre.html</loc>
+  </url>
+  <url>
+    <loc>https://www.seu-dominio-gsa.com.br/servicos.html</loc>
+  </url>
+  <url>
+    <loc>https://www.seu-dominio-gsa.com.br/contato.html</loc>
+  </url>
+</urlset>

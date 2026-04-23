@@ -1,0 +1,5 @@
+# Substituir a URL abaixo pelo domínio final da GSA antes da publicação.
+User-agent: *
+Allow: /
+
+Sitemap: https://www.seu-dominio-gsa.com.br/sitemap.xml
