@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Substituir o domínio abaixo pelo domínio final da GSA antes da publicação. -->
+<!-- Quando houver domínio próprio, substituir estas URLs do GitHub Pages pela URL final da GSA. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.seu-dominio-gsa.com.br/</loc>
+    <loc>https://fharmacajr-a11y.github.io/GSA---SITE/</loc>
   </url>
   <url>
-    <loc>https://www.seu-dominio-gsa.com.br/sobre.html</loc>
+    <loc>https://fharmacajr-a11y.github.io/GSA---SITE/sobre.html</loc>
   </url>
   <url>
-    <loc>https://www.seu-dominio-gsa.com.br/servicos.html</loc>
+    <loc>https://fharmacajr-a11y.github.io/GSA---SITE/servicos.html</loc>
   </url>
   <url>
-    <loc>https://www.seu-dominio-gsa.com.br/contato.html</loc>
+    <loc>https://fharmacajr-a11y.github.io/GSA---SITE/contato.html</loc>
   </url>
 </urlset>

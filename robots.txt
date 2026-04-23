@@ -1,5 +1,5 @@
-# Substituir a URL abaixo pelo domínio final da GSA antes da publicação.
+# Quando houver domínio próprio, substituir a URL abaixo pela URL final da GSA.
 User-agent: *
 Allow: /
 
-Sitemap: https://www.seu-dominio-gsa.com.br/sitemap.xml
+Sitemap: https://fharmacajr-a11y.github.io/GSA---SITE/sitemap.xml
