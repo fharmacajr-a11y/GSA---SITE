@@ -15,6 +15,12 @@ html {
   scroll-behavior: smooth;
 }
 
+#conteudo,
+#canais-contato,
+#formulario {
+  scroll-margin-top: 7rem;
+}
+
 body {
   font-family: "Manrope", sans-serif;
   color: var(--ink);
@@ -94,9 +100,34 @@ h4,
   transform: scaleX(1);
 }
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba(20, 100, 255, 0.24);
+  outline-offset: 3px;
+}
+
 .mobile-link.is-active {
   color: var(--brand-dark);
   background: rgba(20, 100, 255, 0.08);
+}
+
+[data-menu-button] {
+  transition: border-color 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
+}
+
+[data-menu-button]:hover {
+  background: rgba(20, 100, 255, 0.08);
+  border-color: rgba(20, 100, 255, 0.26);
+}
+
+[data-mobile-menu] {
+  margin-top: 0.35rem;
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 18px 38px rgba(10, 31, 68, 0.12);
 }
 
 .pill {
@@ -314,8 +345,13 @@ h4,
 }
 
 .link-card {
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.link-card:hover,
+.link-card:focus-visible {
+  background: rgba(255, 255, 255, 0.24);
 }
 
 @keyframes floatY {
@@ -332,7 +368,44 @@ h4,
   animation: floatY 6s ease-in-out infinite;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .float-soft {
+    animation: none;
+  }
+}
+
 @media (max-width: 767px) {
+  .brand-lockup {
+    gap: 0.65rem;
+  }
+
+  .brand-mark {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+
+  .hero-shell,
+  .cta-band {
+    border-radius: 1.5rem;
+  }
+
+  .hero-panel,
+  .section-card,
+  .service-card,
+  .detail-card,
+  .contact-card,
+  .timeline-card {
+    border-radius: 1.35rem;
+  }
+
+  .grid-accent::after {
+    display: none;
+  }
+
   .process-step {
     padding-left: 0;
     padding-top: 4rem;

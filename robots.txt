@@ -1,4 +1,3 @@
-# Quando houver domínio próprio, substituir a URL abaixo pela URL final da GSA.
 User-agent: *
 Allow: /
 

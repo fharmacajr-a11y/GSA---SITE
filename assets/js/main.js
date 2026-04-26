@@ -14,6 +14,7 @@ const setMenuState = (isOpen) => {
   if (!menuButton || !mobileMenu) return;
 
   menuButton.setAttribute("aria-expanded", String(isOpen));
+  menuButton.setAttribute("aria-label", isOpen ? "Fechar menu principal" : "Abrir menu principal");
   mobileMenu.classList.toggle("hidden", !isOpen);
 
   if (menuLabel) {
@@ -48,8 +49,22 @@ if (menuButton) {
   });
 }
 
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    if (window.innerWidth < 768) {
+      setMenuState(false);
+    }
+  });
+});
+
 window.addEventListener("resize", () => {
   if (window.innerWidth >= 768) {
+    setMenuState(false);
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
     setMenuState(false);
   }
 });
