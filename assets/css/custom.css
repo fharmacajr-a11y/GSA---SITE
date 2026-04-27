@@ -70,6 +70,14 @@ h4,
   box-shadow: 0 10px 22px rgba(20, 100, 255, 0.14);
 }
 
+.brand-header-mark {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
 .nav-link {
   position: relative;
   color: var(--ink-soft);
@@ -390,6 +398,13 @@ textarea:focus-visible {
     height: 2.6rem;
   }
 
+
+@media (min-width: 768px) {
+  .brand-header-mark {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
   .hero-shell,
   .cta-band {
     border-radius: 1.5rem;
